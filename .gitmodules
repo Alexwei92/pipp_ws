@@ -1,0 +1,3 @@
+[submodule "src/lidar_slam"]
+	path = src/lidar_slam
+	url = https://github.com/Alexwei92/lidar_slam.git
