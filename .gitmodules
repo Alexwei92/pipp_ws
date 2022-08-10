@@ -1,3 +1,6 @@
 [submodule "src/lidar_slam"]
 	path = src/lidar_slam
 	url = https://github.com/Alexwei92/lidar_slam.git
+[submodule "src/VOCSampler"]
+	path = src/VOCSampler
+	url = https://github.com/Alexwei92/VOCSampler.git
