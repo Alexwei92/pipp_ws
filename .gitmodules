@@ -4,6 +4,3 @@
 [submodule "src/VOCSampler"]
 	path = src/VOCSampler
 	url = https://github.com/Alexwei92/VOCSampler.git
-[submodule "src/point_cloud_coloring"]
-	path = src/point_cloud_coloring
-	url = https://github.com/XiaoxingChen/point_cloud_coloring.git
