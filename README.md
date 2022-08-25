@@ -27,8 +27,18 @@ source devel/setup.bash
 ```
 
 ## 3. Example
-
-TBA
+### Offline with downloaded rosbag files:
+```bash
+roslaunch lidar_slam mapping_velodyne_v4.launch
+rosbag play --clock DOWNLOADED_FILE.bag
+```
+### Online with our IMU, LiDAR, and camera sensors:
+```bash
+roslaunch lidar_slam connect_imu.launch
+roslaunch lidar_slam connect_camera.launch
+roslaunch lidar_slam connect_lidar.launch
+roslaunch lidar_slam mapping_velodyne_v4.launch
+```
 
 ## Licence
 
