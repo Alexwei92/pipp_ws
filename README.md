@@ -39,6 +39,10 @@ roslaunch lidar_slam connect_camera.launch
 roslaunch lidar_slam connect_lidar.launch
 roslaunch lidar_slam mapping_velodyne_v5.launch
 ```
+### Record data:
+```bash
+roslaunch lidar_slam record_data.launch
+```
 
 ## Licence
 
